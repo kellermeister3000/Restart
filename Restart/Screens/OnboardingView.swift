@@ -44,14 +44,7 @@ struct OnboardingView: View {
                 // MARK: - CENTER
                 
                 ZStack {
-                    ZStack {
-                        Circle()
-                            .stroke(.white.opacity(0.2), lineWidth: 40)
-                            .frame(width: 260, height: 260, alignment: .center)
-                        Circle()
-                            .stroke(.white.opacity(0.2), lineWidth: 80)
-                            .frame(width: 260, height: 260, alignment: .center)
-                    } //: ZSTACK
+                    CircleGroupView(ShapeColor: .white, ShapeOpacity: 0.2)
                     
                     Image("character-1")
                         .resizable()
@@ -76,8 +69,7 @@ struct OnboardingView: View {
                     // 2. CALL-TO-ACTION (STATIC)
                     
                     Text("Get Started")
-                        .font(.title3)
-                        .fontDesign(.rounded)
+                        .font(.system(.title3, design: .rounded))
                         .foregroundColor(.white)
                         .offset(x: 20)
                     

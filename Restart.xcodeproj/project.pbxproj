@@ -15,6 +15,7 @@
 		8436108C29BA90240080903D /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8436108A29BA90240080903D /* chimeup.mp3 */; };
 		8436109329BA92C90080903D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436109229BA92C90080903D /* OnboardingView.swift */; };
 		8436109529BA92E00080903D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436109429BA92E00080903D /* HomeView.swift */; };
+		8436109729BAEE8C0080903D /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436109629BAEE8C0080903D /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8436109129BA91FA0080903D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8436109229BA92C90080903D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		8436109429BA92E00080903D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8436109629BAEE8C0080903D /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,10 @@
 			children = (
 				8436109129BA91FA0080903D /* Info.plist */,
 				8436109029BA91690080903D /* Utilities */,
-				8436108F29BA91600080903D /* Views */,
 				8436108D29BA902B0080903D /* Sounds */,
 				8436107B29BA8EB30080903D /* RestartApp.swift */,
 				8436108E29BA91540080903D /* Screens */,
+				8436108F29BA91600080903D /* Views */,
 				8436107F29BA8EB30080903D /* Assets.xcassets */,
 				8436108129BA8EB30080903D /* Preview Content */,
 			);
@@ -102,6 +104,7 @@
 		8436108F29BA91600080903D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8436109629BAEE8C0080903D /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8436109729BAEE8C0080903D /* CircleGroupView.swift in Sources */,
 				8436109329BA92C90080903D /* OnboardingView.swift in Sources */,
 				8436109529BA92E00080903D /* HomeView.swift in Sources */,
 				8436107E29BA8EB30080903D /* ContentView.swift in Sources */,
