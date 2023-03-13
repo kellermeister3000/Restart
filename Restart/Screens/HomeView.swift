@@ -52,6 +52,7 @@ struct HomeView: View {
             
             Button(action: {
                 withAnimation {
+                    playSound(sound: "success", type: "m4a")
                     isOnboardingViewActive = true
                 }
             }) {
@@ -66,11 +67,11 @@ struct HomeView: View {
             .buttonBorderShape(.capsule)
             .controlSize(.large)
         } //: VSTACK
-        .onAppear {
+        .onAppear(perform: {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
                 isAnimating = true
             })
-        }
+        })
     }
 }
 struct HomeView_Previews: PreviewProvider {
